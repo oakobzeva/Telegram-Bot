@@ -19,9 +19,6 @@ def beginning(message):
     bot.send_message(message.chat.id, f'<b>Здравствуй, {message.from_user.first_name} {message.from_user.last_name}!</b> Ну что, сыграем в города?', parse_mode='html', reply_markup=first_markup)
 #Это вступительное сообщение, которое отправляется после команды старт
 
-
-#Здесь был раньше хэндлер
-
 #Создадим функции для всех уровней:
 def easy_reply(message):
     if message.text == 'Сдаюсь':
