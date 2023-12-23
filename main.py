@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 import webbrowser
 
-bot = telebot.TeleBot('6340729476:AAHKa8A8rk0lgGAofeHhJowEmUYuh3Cqa30')
+bot = telebot.TeleBot('TOKEN')
 
 
 
